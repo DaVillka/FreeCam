@@ -1,7 +1,7 @@
 # Rage Freecam
 =============
-
-Simple freecam API for Rage.
+Porting from fivem-freecam
+Original link: https://github.com/Deltanic/fivem-freecam
 
 Features
 --------

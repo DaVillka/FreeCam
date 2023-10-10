@@ -16,11 +16,6 @@ namespace HardLife.Utils.FreeCamera
 
         protected FreecamManager() 
         {
-            FreeCam.SetCameraSetting(CameraSetting.FOV, Cam.GetGameplayCamFov());
-            Input.Bind(RAGE.Ui.VirtualKeys.X, false, () =>
-            {
-                FreeCam.Active = !FreeCam.Active;
-            });
             Tick += (e) => UpdateCamera();
             _instance = this; 
         }
